@@ -1,0 +1,40 @@
+body{
+	background-color: #131313;
+}
+
+@-webkit-keyframes fadein{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 100;
+	}
+}
+
+#header{
+	animation: fadein 1.7s ease-in;
+}
+
+#currenttime, #hours, #minutes {
+	animation: fadein 3.3s ease-in;
+}
+
+#dayoftheweek, #week{
+	animation: fadein 4.9s ease-in;
+}
+
+#currentperiod1, #currentperiod{
+	animation: fadein 6.2s ease-in;
+}
+
+#nextperiod1, #nextperiod {
+	animation: fadein 7.1s ease-in;
+}
+
+#textdiv{
+	display: block;
+	color: white;
+	font-family: 'Muli', sans-serif;
+	text-align: center;
+}
+
